@@ -6,7 +6,9 @@
 // Update   --> PUT     --> UPDATE
 // Delete   --> DELETE  --> DELETE
 
-const {PORT = 3000} = process.env;
+const { PORT = 3000 } = process.env;
+// const port = process.env.PORT || 3000;
+
 const express = require('express');
 const server = express();
 
